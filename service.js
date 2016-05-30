@@ -12,9 +12,10 @@ const options = {
   mesh: {
     auto: true,
     listen: [
-      {pin: 'role:session, cmd:add', model: 'consume'},
+      {pin: 'role:session, cmd:set', model: 'consume'},
       {pin: 'role:session, cmd:get', model: 'consume'},
-      {pin: 'role:session, cmd:clear', model: 'consume'}
+      {pin: 'role:session, cmd:clear', model: 'consume'},
+      {pin: 'role:session, cmd:delete', model: 'consume'}
     ]
   },
   session: {
