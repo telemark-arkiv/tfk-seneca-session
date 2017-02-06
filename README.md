@@ -1,4 +1,6 @@
 # tfk-seneca-session
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-seneca-session.svg)](https://greenkeeper.io/)
 Session service
 
 ```curl -d '{"role": "session", "cmd":"set", "sessionId": "1234", "key":"test", "data":"kjeks"}' -v http://localhost:8000/act```
