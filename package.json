@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "mongojs": "2.5.0",
-    "seneca": "3.4.3",
+    "seneca": "3.6.0",
     "seneca-balance-client": "0.6.0",
     "seneca-mesh": "0.11.0"
   }
